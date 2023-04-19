@@ -1,2 +1,12 @@
-<p><%= @coach_answer %></p>
-<%= link_to 'back to answer', ask_path%>
+<div class = 'container'>
+  <p><%= @question %></p>
+  <p><em>-You</em></p>
+</div>
+
+<div class='p-3'>
+  <p><%= @coach_answer %></p>
+  <p><em>-Your coach</em></p>
+</div>
+
+
+<%= link_to 'Ask a new Question', ask_path%>
